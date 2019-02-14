@@ -5,6 +5,11 @@ public class BinaryIterativeSearch implements Practice03Search
 		return search(arr, target, 0, arr.length);
 	};
 	
+	public String searchName() 
+	{
+		return "Binary iterative search";
+	}
+	
 	//binary iterative search that implements Practice03Seach.java
 	public int search(int[] arr, int target, int minimum, int maximum)
 	{
@@ -28,9 +33,5 @@ public class BinaryIterativeSearch implements Practice03Search
 			} //else
 		} //while
 		return -1;
-	}
-	public String searchName() 
-	{
-		return "Binary Iterative Search";
 	}
 }

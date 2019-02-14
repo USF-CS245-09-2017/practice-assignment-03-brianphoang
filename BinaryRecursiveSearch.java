@@ -5,6 +5,11 @@ public class BinaryRecursiveSearch implements Practice03Search
 		return search(arr, target, 0, arr.length - 1);
 	};
 	
+	public String searchName()
+	{
+		return "Binary recursive search";
+	}
+	
 	//binary recursive search implements Practice03Seach.java
 	public int search(int[] arr, int target, int minimum, int maximum)
 	{
@@ -27,10 +32,5 @@ public class BinaryRecursiveSearch implements Practice03Search
 		{
 			return search(arr, target, middle + 1, maximum);
 		} //else
-	}
-	
-	public String searchName()
-	{
-		return "Binary Recursive Search";
 	}
 }

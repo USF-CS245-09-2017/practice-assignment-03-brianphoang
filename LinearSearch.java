@@ -1,5 +1,9 @@
 public class LinearSearch implements Practice03Search
 {
+	public String searchName()
+	{
+		return "Linear search";
+	}
 	
 	//linear search that implements Practice03Seach.java
 	public int search(int [] arr, int target)
@@ -12,10 +16,5 @@ public class LinearSearch implements Practice03Search
 			} //if
 		} //for
 		return -1;
-	}
-
-	public String searchName()
-	{
-		return "Linear Search";
 	}
 }
