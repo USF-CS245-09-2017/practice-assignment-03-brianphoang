@@ -30,7 +30,7 @@ public class BinaryRecursiveSearch implements Practice03Search
 		} //if
 		else
 		{
-			return search(arr, target, middle + 1, maximum);
+			return search(arr, target, maximum,  middle + 1);
 		} //else
 	}
 }
